@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>
+        How to Add Image in Text Background using HTML and CSS ?
+    </title>
+    
+    <style>
+       body {
+           margin: 0;
+           padding: 0;
+           text-align: center;
+       }
+       
+       h1  {
+            display: inline-block;
+            margin: 0;
+            fontsize: 400px;
+            background-colour: #2f8d46;
+            background-image: url(
+  'https://drive.google.com/file/d/18q4tAmKoDpHSa2EJOMs5vnduDZIdUm3p/view?usp=drivesdk');
+            background-repeat: no repeat;
+            background-size: cover;
+            background-position: center;
+            colour: transparent;
+            -webkit-background-clip: text;
+        }
+     </style>
+</head>
+
+<body>
+    <h1>IRIDESCENCE</h1>
+</body>
+
+</html>    
